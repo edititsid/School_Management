@@ -4,7 +4,7 @@ import winsound
 
 winsound.Beep(1000, 300)
 
-db = c.connect(host='localhost', user='root', password='Chakkalayil7$23', database='school',auth_plugin='mysql_native_password')
+db = c.connect(host='localhost', user='root', password='root', database='school',auth_plugin='mysql_native_password')
 if db.is_connected():
     print('successfully connected')
 
